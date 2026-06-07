@@ -1,0 +1,9 @@
+[project]
+name = "expense-tracker-mcp"
+version = "0.1.0"
+description = "Local MCP server for expense tracking using FastMCP + SQLite"
+readme = "../README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp[apps]>=3.4.2",
+]
